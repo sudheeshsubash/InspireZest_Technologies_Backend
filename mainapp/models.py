@@ -56,7 +56,7 @@ class Task(models.Model):
     )
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    user = models.ManyToManyField(User, related_name='tasks')
+    assign_to = models.ManyToManyField(User, related_name='tasks')
     status = models.CharField(
         max_length=20,
         choices=[("accepted", "Accepted"), ("pending", "Pending"), ("rejected", "Rejected"),("completed", "Completed")],
