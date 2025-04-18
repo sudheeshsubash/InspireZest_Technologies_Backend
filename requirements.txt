@@ -1,0 +1,17 @@
+django-axes
+celery
+django
+djangorestframework
+django-filter
+django-debug-toolbar
+djangorestframework-simplejwt[crypto]
+django-axes
+django-redis
+django-simple-history
+django-storages
+django-cors-headers
+django-extensions
+gunicorn
+psycopg2-binary
+redis
+python-dotenv
